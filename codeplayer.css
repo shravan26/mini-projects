@@ -1,0 +1,53 @@
+body{
+  font-family:sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+#header{
+  width: 100%;
+  background-color: #EEEEEE;
+  padding: 5px;
+  margin: 0px;
+  height: 30px;
+}
+#buttonContainer{
+  width: 236px;
+  margin: 0px auto;
+}
+.toggleButton{
+  float:left;
+  border:1px solid grey;
+  padding:6px;
+  font-size:90%;
+}
+#logo{
+  float:left;
+  font-weight: bold;
+  padding:3px 5px;
+  font-size: 120%
+}
+#html{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#output{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.active{
+  background-color: #E8F2FF;
+}
+.highlightedButton{
+  background-color: grey;
+}
+textarea{
+  width: 50%;
+  resize: none;
+  border-color: grey;
+}
+iframe{
+  border: none;
+}
+.hidden{
+  display: none;
+}
